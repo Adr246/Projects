@@ -1,0 +1,15 @@
+button{
+    background: gray;
+    color: black;
+}
+
+#para1{
+    color:rgb(255, 127, 210);
+}
+#para2{
+    color: hotpink;
+}
+.content{
+    color:brown;
+    background: black;
+}
