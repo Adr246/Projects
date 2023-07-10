@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ece7e7;
+    
+    
+}
+
+body header{
+    display:flex;
+}
+
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.671);
+    
+    border-radius: 16px;
+    box-shadow: 0 0 128px rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.form-sign form .name-details{
+    display: flex;
+}
+
+form .name-details .fields:first-child{
+    margin-right: 10px;
+}
+
+form .name-details .fields:last-child{
+    margin-left: 10px;
+}
+.form-sign{
+    padding: 30px 50px;
+}
+
+.form-sign header{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Secular One', sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+.form-sign form{
+    margin:20px 0;
+}
+
+.form-sign form .fields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-sign form .fields-button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-sign form .fields-button input{
+    margin-top: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-sign form .fields  input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid black #ccc;
+}
+
